@@ -62,7 +62,6 @@ responsividad (pruébalo en una ventana angosta y verás que la imagen se
 desborda de su contenedor en vez de achicarse).
 
 
-
 ### 5. Los enlaces del menú de navegación
 Haz clic en cada uno de los 4 enlaces del menú superior. Uno de ellos no
 te lleva a la sección correspondiente. Encuentra por qué y corrígelo.

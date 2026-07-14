@@ -18,10 +18,6 @@ body {
   color: var(--text);
 }
 
-h1, h2, h3, {
-  font-family: inherit;
-}
-
 /* ===== Navbar ===== */
 .encabezado {
   position: fixed;
