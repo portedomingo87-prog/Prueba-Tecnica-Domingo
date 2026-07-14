@@ -6,18 +6,24 @@
   --muted: #ccc;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', system-ui, sans-serif;
   color: var(--text);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, {
   font-family: inherit;
 }
 
 /* ===== Navbar ===== */
-.navbar {
+.encabezado {
   position: fixed;
   top: 0;
   left: 0;
@@ -33,6 +39,7 @@ h1, h2, h3, h4 {
 .logo {
   font-weight: bold;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .nav-links a {
@@ -40,6 +47,10 @@ h1, h2, h3, h4 {
   text-decoration: none;
   margin-left: 24px;
   font-size: 0.95rem;
+}
+
+.logo:hover {
+  color: var(--accent);
 }
 
 .nav-links a:hover {
@@ -63,7 +74,7 @@ h1, h2, h3, h4 {
   margin: 10px 0 4px;
 }
 
-.hero h4 {
+.hero {
   color: #555;
   font-weight: normal;
 }
@@ -137,13 +148,13 @@ h1, h2, h3, h4 {
 }
 
 /* ===== Footer ===== */
-.footer {
+.final {
   background: var(--dark);
   padding: 24px;
   text-align: center;
 }
 
-.footer p {
+.final p {
   color: #3a3f47;
   font-size: 0.75rem;
   margin: 0;
