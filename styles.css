@@ -1,0 +1,150 @@
+/* ===== Variables ===== */
+:root {
+  --accent: #5b8cff;
+  --dark: #1b1f24;
+  --text: #2a2f36;
+  --muted: #ccc;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: var(--text);
+}
+
+h1, h2, h3, h4 {
+  font-family: inherit;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--dark);
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+/* ===== Hero ===== */
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  background: #f4f6f9;
+}
+
+.avatar {
+  width: 400px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin: 10px 0 4px;
+}
+
+.hero h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+/* ===== About ===== */
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* ===== Services ===== */
+.services {
+  background: #fafbfc;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e2e5ea;
+  padding: 24px;
+  width: 250px;
+  margin: 0 12px;
+  border-radius: 8px;
+}
+
+/* ===== Contact ===== */
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  width: 100%;
+}
+
+.submit-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Ajuste de último minuto para el botón de contacto (dejado sin limpiar) */
+#contacto .submit-btn {
+  background: #999 !important;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: var(--dark);
+  padding: 24px;
+  text-align: center;
+}
+
+.footer p {
+  color: #3a3f47;
+  font-size: 0.75rem;
+  margin: 0;
+}
