@@ -61,7 +61,7 @@ body {
 }
 
 .avatar {
-  width: 400px;
+  width: 30%;
   border-radius: 50%;
   margin-bottom: 20px;
 }
@@ -94,6 +94,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  gap: 10px;
 }
 
 .card {
@@ -101,8 +102,15 @@ body {
   border: 1px solid #e2e5ea;
   padding: 24px;
   width: 250px;
-  margin: 0 12px;
-  border-radius: 8px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 450px){
+   .service-cards{
+      flex-direction: column;
+      gap: 10px;
+   }
 }
 
 /* ===== Contact ===== */
@@ -128,19 +136,12 @@ body {
 }
 
 .submit-btn {
-  display: inline-block;
   background: var(--accent);
   color: white;
   padding: 12px 20px;
   border-radius: 6px;
   text-align: center;
   cursor: pointer;
-  font-weight: bold;
-}
-
-/* Ajuste de último minuto para el botón de contacto (dejado sin limpiar) */
-#contacto .submit-btn {
-  background: #999 !important;
 }
 
 /* ===== Footer ===== */

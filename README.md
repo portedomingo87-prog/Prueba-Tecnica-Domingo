@@ -86,9 +86,6 @@ luego Enter o Espacio para "enviar"). El botón de enviar no se comporta
 como un botón real. Revisa qué etiqueta se está usando y corrígelo por la
 apropiada.
 
-
-
-
 ### 9. Las tarjetas de "Servicios"
 Achica la ventana del navegador hasta un ancho de celular. Las tres
 tarjetas de servicios no se adaptan: en vez de acomodarse en columna o
