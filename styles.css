@@ -120,6 +120,12 @@ body {
   padding: 60px 20px;
 }
 
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 .form-group {
   margin-bottom: 16px;
   display: flex;
