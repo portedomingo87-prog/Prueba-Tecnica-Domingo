@@ -136,12 +136,14 @@ body {
 }
 
 .submit-btn {
+  display: inline-block;
   background: var(--accent);
   color: white;
   padding: 12px 20px;
   border-radius: 6px;
   text-align: center;
   cursor: pointer;
+  font-weight: bold;
 }
 
 /* ===== Footer ===== */
