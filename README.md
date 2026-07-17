@@ -72,7 +72,7 @@ usando el menú (por ejemplo "Servicios" o "Contacto"), fíjate bien en qué
 parte queda el título de la sección apenas llegas. El menú superior es
 fijo (`position: fixed`) y no todas las secciones tienen en cuenta ese
 espacio.
-
+  
 ### 7. El formulario de contacto
 Prueba clickear cada `<label>` del formulario ("Nombre", "Correo",
 "Mensaje"). Al clickear un label, el campo correspondiente debería

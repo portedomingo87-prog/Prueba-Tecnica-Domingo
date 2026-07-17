@@ -18,11 +18,13 @@
     </nav>
   </header>
 
-  <main class="hero" id="inicio">
+  <main class="cuerpo">
+
+  <section class="hero" id="inicio">
     <img src="avatar.svg" alt="la foto del perfil" class="avatar">
     <h2>Hola, soy Marco</h2>
     <p>Construyo interfaces web rápidas y accesibles</p>
-  </main>
+  </section>
 
   <section class="about" id="sobre-mi">
     <h2>Sobre mí</h2>
@@ -60,24 +62,26 @@
     <h3>Contáctame</h3>
     <form class="contact-form">
 
-      <div class="form-group">
+      <section class="form-group">
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="Domingo">
-      </div>
+      </section>
 
-      <div class="form-group">
-        <label for="correo">Correo</label>
+      <section class="form-group">
+        <label for="email">Correo</label>
         <input type="email" id="email" name="email" placeholder="portedomingo87@gmail.com">
-      </div>
+      </section>
 
-      <div class="form-group">
+      <section class="form-group">
         <label for="mensaje">Mensaje</label>
         <textarea id="mensaje" placeholder="Esto es un formulario para los trabajadores"></textarea>
-      </div>
+      </section>
 
       <button type="submit" class="submit-btn">Enviar mensaje</button>
     </form>
   </section>
+
+  </main>
 
   <footer class="final">
     <p>© 2026 Marco Reyes. Todos los derechos reservados.</p>
